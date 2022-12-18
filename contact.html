@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/7d90d49287.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <title>Contact</title>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Z'MOVIE'S</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="index.html">All Movie</a>
+                        <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
+                    </div>
+                 </div>
+            </div>
+        </nav>
+
+        <!--Contact Information & Social Media-->
+        <div class="contact2" id="contact2">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2><b>Contact Information</b></h2>
+                            <div class="kontak">
+                                <h6>Kontak</h6>
+                                <div class="mb-3">
+                                    <i class="fa-solid fa-square-phone fa-2x"></i>
+                                    <a href="#">0812-8273-2872</a>
+                                </div>
+                                
+                                <div class="mb-3">
+                                    <i class="fa-solid fa-square-envelope fa-2x"></i>
+                                    <a href="#">zmovies@gmail.com</a>
+                                </div>
+                                
+                                <h6>Social Media</h6>
+                                <div class="d-flex">
+                                    <a href=""><i class="fa-brands fa-square-instagram fa-3x"></i></a>
+                                    <a href=""><i class="fa-brands fa-square-whatsapp fa-3x"></i></a>
+                                    <a href=""><i class="fa-brands fa-square-google-plus fa-3x"></i></a>
+                                </div>
+                            </div>
+                            <br><br>
+                        </div>
+                        
+                        <!--Form Message-->
+                        <div class="col-md-6">
+                            <div class="card-contact w-100">
+                                <form>
+                                    <h2><b>Send Us A Message</b></h2>
+                                    <div class="mb-3">
+                                        <label for="formGroupExampleInput" class="form-label">Name</label>
+                                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Input Your Name">
+                                    </div>
+                                    
+                                    <div class="mb-3">
+                                        <label for="formGroupExampleInput2" class="form-label">Phone</label>
+                                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Input Your Phone">
+                                    </div>
+                                    
+                                    <div class="mb-3">
+                                        <label for="formGroupExampleInput2" class="form-label">Email</label>
+                                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Input Your Email">
+                                    </div>
+                                    
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Input Your Message" rows="3"></textarea>
+                                    </div>
+                                    <div>
+                                        <!--Button trigger modal-->
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                                            Submit
+                                        </button>
+  
+                                        <!--Modal-->
+                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Save Changes</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        your changes will be saved
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Konfirmasi</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Footer-->
+        <div class="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h3>Quick Links</h3>
+                    <a href="index.html"><i class="fas fa-angle-right"></i>All Movies</a>
+                    <a href="contact.html"><i class="fas fa-angle-right"></i>Contact</a>
+                </div>
+
+                <div class="box">
+                    <h3>Extra Links</h3>
+                    <a href="#"><i class="fas fa-angle-right"></i>Privacy Policy</a>
+                    <a href="#"><i class="fas fa-angle-right"></i>Terms Of Use</a>
+                </div>
+
+                <div class="box">
+                    <h3>Contact Info</h3>
+                    <a href="#"><i class="fas fa-phone"></i>0824 4738 7320</a>
+                    <a href="#"><i class="fas fa-envelope"></i>zmovies@gmail.com</a>
+                </div>
+
+                <div class="box">
+                    <h3>Follow Us</h3>
+                    <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+                    <a href="#"><i class="fab fa-whatsapp"></i>Whatsapp</a>
+                </div>
+            </div>
+
+            <div class="credit">Created By <span>Zahra As Syifa Awalia</span> | All Right Reserved!</div>
+        </div>
+
+        <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap");
+
+.body {
+    font-family: Roboto Condensed;
+}
+
+
+/* Index */
+.home {
+    padding: 0;
+}
+
+.home .slide {
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover !important;
+    background-position: center !important;
+    min-height: 30rem;
+}
+
+.paragraf {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+.paragraf h3 {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.paragraf p {
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
+
+.paragraf .button1 {
+    display: inline-block;
+    background: #21618C;
+    margin-top: 1rem;
+    color: #EBF5FB;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+
+.paragraf .button1:hover {
+    background: #131313;
+}
+
+.paragraf .button2 {
+    display: inline-block;
+    background: #21618C;
+    margin-top: 1rem;
+    color: #EBF5FB;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+
+.paragraf .button2:hover {
+    background: #131313;
+}
+
+
+/* Contact */
+.contact-text{
+    padding: 0 10% 0 10%;
+}
+
+.contact2 {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background-color: #21618C;
+}
+
+.contact2 h2 {
+    color: #FFFFFF;
+}
+
+.contact2 i {
+    color: #FFFFFF;
+}
+
+.contact2 label {
+    color: #FFFFFF;
+}
+
+.kontak h6 {
+    font-size: 18px;
+    margin: 19px 0 14px 0;
+    color: #FFFFFF;
+}
+
+.kontak a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 15px;
+}
+nav {
+    background-color: #131313;
+    border-bottom: 2px solid #fffcf9;
+}
+.nav {
+  color: white;
+}
+
+.col1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.col1 a:hover {
+    color: #21618C;
+}
+
+.media {
+    font-size: 30pt;
+    width: 200px;
+}
+
+.media i {
+    color: white;
+}
+
+.media i:hover {
+    color: #21618C;
+}
+
+.margin {
+    padding-bottom: 6rem;
+}
+
+
+/* Footer */
+.footer {
+    background-color: #EBF5FB;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+    gap: 3rem;
+    padding-left: 8rem;
+    padding-top: 3rem;
+    padding-bottom: 0;
+}
+
+.footer .box-container .box h3 {
+    color: black;
+    font-size: 15px;
+    padding-bottom: 1rem;
+}
+
+.footer .box-container .box a {
+    color: black;
+    font-size: 15px;
+    padding-bottom: 1rem;
+    display: block;
+}
+
+.footer .box-container .box a i {
+    color: #21618C;
+    padding-right: .5rem;
+    transition: .2s linear;
+}
+
+.footer .box-container .box a:hover i {
+    padding-right: 2rem;
+}
+
+.footer .credit {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    margin-top: 3rem;
+    border-top: .1rem solid black;
+    font-size: 15px;
+    color: black;
+}
+
+.footer .credit span {
+    color: #21618C;
+}
